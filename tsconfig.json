@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "jsxImportSource": "@emotion/react",
+    "jsx": "react-jsx",
+    "noLib": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "baseUrl": "./src/",
+      "paths": {
+        "common-app": ["common-app"],
+        "common": ["common"],
+        "core": ["core"],
+        "layouts": ["layouts"],
+        "pods": ["pods"],
+        "scenes": ["scenes"],
+        "assets": ["assets"],
+      }
+    },
+    "include": ["./src/**/*", "./config/test/setup-after.ts", "src/custom.d.ts"]
+  }
+  
